@@ -41,10 +41,10 @@ bindsym $mod+F7 exec --no-startup-id xrandr --output eDP-1-1 --auto --output HDM
 bindsym $mod+F8 exec --no-startup-id xrandr --output HDMI-0 --auto --primary --output eDP-1-1 --off
 
 # Mirror screens
-bindsym $mod+F9 exec --no-startup-id xrandr --output eDP-1-1 --auto --output HDMI-0 --auto --same-as eDP-1
+bindsym $mod+F9 exec --no-startup-id xrandr --output eDP-1-1 --auto --output HDMI-0 --auto --same-as eDP-1-1
 
 # Extend screens
-bindsym $mod+F10 exec --no-startup-id xrandr --output eDP-1-1 --auto --output HDMI-0 --auto --right-of eDP-1
+bindsym $mod+F10 exec --no-startup-id xrandr --output eDP-1-1 --auto --output HDMI-0 --auto --left-of eDP-1-1
 
 
 
